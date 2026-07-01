@@ -2,9 +2,8 @@
 
 A first-person 3D museum experience built entirely from scratch using WebGL2 and JavaScript. The project features custom maze layout, dynamic lighting, custom `.obj` model loading, and algorithmically generated textures.
 
-<div align="center">
+
   <img width="671" height="535" alt="museumhigh-ezgif com-optimize" src="https://github.com/user-attachments/assets/9bc19c33-1461-4cc0-8544-4c930688aa57" />
-</div>
 
 [Try it here](https://kiprasgud.github.io/WebGLMuseum/)
 
