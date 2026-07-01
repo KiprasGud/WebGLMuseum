@@ -676,24 +676,24 @@ async function loadOBJFile(filepath, modelName) {
     }
 }
 async function initializeModels() {
-    await loadOBJFile('planeta.obj', 'planet');
-    await loadOBJFile('namas.obj', 'house');
-    await loadOBJFile('masina.obj', 'car');
-    await loadOBJFile('plane.obj', 'plane');
-    await loadOBJFile('Bench_LowRes.obj', 'bench');
-    await loadOBJFile('characterlowpoly2.obj', 'character');
-    await loadOBJFile('football goal.obj', 'goal');
-    await loadOBJFile('toilet.obj', 'toilet');
-    await loadOBJFile('forklift.obj', 'forklift');
-    await loadOBJFile('helmet.obj', 'helmet');
-    await loadOBJFile('kompleksas.obj', 'kompleksas');
-    await loadOBJFile('mycar.obj', 'mycar');
-    await loadOBJFile('zmogus.obj', 'zmogus');
-    await loadOBJFile('cow.obj', 'cow');
-    await loadOBJFile('Pikachu OBJ.obj', 'pik');
-    await loadOBJFile('PenguinBaseMesh.obj', 'peng');
-    await loadOBJFile('box.obj', 'box');
-    await loadOBJFile('fifa.obj', 'fifa');
+    await loadOBJFile('Obj files/planeta.obj', 'planet');
+    await loadOBJFile('Obj files/namas.obj', 'house');
+    await loadOBJFile('Obj files/masina.obj', 'car');
+    await loadOBJFile('Obj files/plane.obj', 'plane');
+    await loadOBJFile('Obj files/Bench_LowRes.obj', 'bench');
+    await loadOBJFile('Obj files/characterlowpoly2.obj', 'character');
+    await loadOBJFile('Obj files/football goal.obj', 'goal');
+    await loadOBJFile('Obj files/toilet.obj', 'toilet');
+    await loadOBJFile('Obj files/forklift.obj', 'forklift');
+    await loadOBJFile('Obj files/helmet.obj', 'helmet');
+    await loadOBJFile('Obj files/kompleksas.obj', 'kompleksas');
+    await loadOBJFile('Obj files/mycar.obj', 'mycar');
+    await loadOBJFile('Obj files/zmogus.obj', 'zmogus');
+    await loadOBJFile('Obj files/cow.obj', 'cow');
+    await loadOBJFile('Obj files/Pikachu OBJ.obj', 'pik');
+    await loadOBJFile('Obj files/PenguinBaseMesh.obj', 'peng');
+    await loadOBJFile('Obj files/box.obj', 'box');
+    await loadOBJFile('Obj files/fifa.obj', 'fifa');
 
     for (const obj of roomObjects) {
         if (obj.textureType && obj.textureSeed) {
